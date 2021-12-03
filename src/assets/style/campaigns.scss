@@ -1,0 +1,31 @@
+
+.campaigns-page {
+  .campaigns-reports {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-top: 55px;
+  }
+
+  .campaigns-table {
+    margin-top: 55px;
+    background: #fff;
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 15px;
+    width: 70%;
+
+
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .campaigns-page {
+    .campaigns-table {
+      width: 100%
+    }
+  }
+}

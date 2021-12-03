@@ -1,0 +1,22 @@
+.App-header {
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1rem;
+  margin: 10px;
+  line-height: 1;
+
+  .navbar-navo {
+    display: flex;
+
+    li {
+      a {
+        padding-left: 10px;
+        font-size: 1rem;
+      }
+
+    }
+  }
+}
