@@ -2,4 +2,4 @@
 nokku
 
 npm i - to install depednices
-npm srtart to start
+npm start - in order to run the project locally
